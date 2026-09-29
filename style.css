@@ -562,6 +562,22 @@ footer {
 .custom-link{color: #ffffff; /* Green */
 }
 
+.social-links {
+  display: flex;
+  gap: 0.9rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #94A3B8;              /* matches your existing .footer-links default color */
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #FFFFFF;               /* matches your existing .footer-links:hover color */
+}
+
 /* ============ RESPONSIVE ============ */
 @media (max-width: 900px) {
   .steps-wrapper { flex-direction: column; }
