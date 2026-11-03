@@ -46,13 +46,13 @@ section { padding: 4rem 0; }
   margin-bottom: 0.5;
 }
 
-/* ============ HEADER (dark, Spotify-style) ============ */
+/* ============ HEADER (teal) ============ */
 .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 6px 24px;
-  background-color: #121212;
+  background-color: ##385F6C;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -121,7 +121,7 @@ section { padding: 4rem 0; }
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  background-color: #121212;
+  background-color: #385F6C;
 }
 
 .hero-logo-wrapper { display: flex; flex-direction: column; align-items: center; }
